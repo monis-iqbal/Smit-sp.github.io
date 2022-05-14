@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(78, 133, 235);
+}
+.login_main_div {
+    text-align: center;
+    height: 380px;
+    width: 350px;
+    margin: auto;
+    margin-top: 9%;
+    background-color: white;
+    border: 1px solid rgb(48, 44, 44);
+    border-radius: 10px;
+
+}
+
+.form_heading {
+    padding: 10px;
+    text-decoration: underline;
+    color: rgb(14, 14, 230);
+}
+
+.input_widt {
+    width: 260px;
+    height: 18px;
+    border-radius: 2px black;
+
+}
+
+.form_button {
+    height: 40px;
+    width: 90px;
+    border-radius: 3px;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+
+.form_button:hover {
+    background-color: rgb(138, 133, 133);
+    box-shadow: 1px 1px 3px 3px rgb(138, 133, 133);
+
+}
+
+
+/*                         navbar                */
+
+
+.navbar_div {
+    height: 55px;
+    width: 100vw;
+    border: 2px solid black;
+    padding: 0px 10px 0px 5px;
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.75);
+        background-color: white;
+
+}
+
+
+.navbar_smit_pic {
+    /* height: 50px; */
+    width: 90px;
+}
+
+
+.navbar_button_div {
+    text-align: center;
+    float: right;
+    padding: 10px 0px 10px 0px;
+
+    height: 20px;
+    width: 400px;
+    margin: auto;
+    margin-right: 0px;
+
+
+
+}
+
+.navbar_button {
+    border: none;
+    /* border-radius: 11px; */
+    margin-right: 40px;
+    padding-bottom: 1px;
+    height: 30px;
+    width: 75px;
+}
+
+.navbar_button:hover{
+    background-color: rgb(47, 47, 209);
+    color: white;
+    transition: 0.5s ease-in-out;
+    border-radius: 11px;
+}
